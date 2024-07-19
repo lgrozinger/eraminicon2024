@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="78.09359mm"
+   height="107.76295mm"
+   viewBox="0 0 78.09359 107.76295"
+   version="1.1"
+   id="svg6874"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="system-electrorepressilator-schematic.svg"
+   inkscape:export-filename="system-electrorepressilator-schematic.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6876"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5518659"
+     inkscape:cx="27.064194"
+     inkscape:cy="206.20339"
+     inkscape:window-width="2548"
+     inkscape:window-height="1395"
+     inkscape:window-x="1926"
+     inkscape:window-y="39"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs6871">
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="8"
+       viewBox="0 0 1 8"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path171" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7560"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7556"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7546"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7540"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7536"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7532"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-2"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-1"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-27-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-1" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-1-5"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-27-2-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-1-2" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-1-5-8"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-5"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="Stop-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="8"
+       viewBox="0 0 1 8"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path171-9" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-5-9"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="Stop-4-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="8"
+       viewBox="0 0 1 8"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path171-9-0" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-5-9-5"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="marker5337"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="9"
+       viewBox="0 0 1 9"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path5335" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-4" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7566-7"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect14027"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect14027-9"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.233066,-41.109881)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.705087;stroke-linecap:round"
+       id="rect6995"
+       width="77.388504"
+       height="20.361395"
+       x="36.585609"
+       y="128.15889" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.704894;stroke-linecap:round;stroke-dasharray:none"
+       id="rect6995-5"
+       width="77.064705"
+       height="51.055584"
+       x="36.803246"
+       y="69.690033" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236"
+       transform="matrix(0.58000469,0,0,0.58000469,29.224687,103.74611)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17270">Anode</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.701305;stroke-linecap:round"
+       id="rect6995-6"
+       width="76.54644"
+       height="20.365177"
+       x="37.350986"
+       y="41.460533" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6"
+       transform="matrix(0.58000469,0,0,0.58000469,0.6759853,17.055953)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17272">Substrate</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4"
+       transform="matrix(0.39385777,0,0,0.39385777,32.685801,75.464769)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17274">GltA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-04-0"
+       transform="matrix(0.51352576,0,0,0.51352576,-46.435791,31.109291)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17276">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-91"
+       transform="matrix(0.58000469,0,0,0.58000469,41.664814,19.686755)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17278">e-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-91-4"
+       transform="matrix(0.58000469,0,0,0.58000469,-0.82045183,103.72199)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17280">e-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-0"
+       transform="matrix(0.39385777,0,0,0.39385777,17.842335,78.938789)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17282">NAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-0-0"
+       transform="matrix(0.39385777,0,0,0.39385777,51.239711,78.938789)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17284">NADH</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.509295;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#TriangleStart)"
+       d="m 68.9331,102.45661 c 0,0 14.858494,0 14.858494,0"
+       id="path7564"
+       inkscape:path-effect="#path-effect7566"
+       inkscape:original-d="M 68.9331,102.45661 H 83.791594" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-8"
+       transform="matrix(0.51352576,0,0,0.51352576,-76.553783,11.437286)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17286">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-04"
+       transform="matrix(0.51352576,0,0,0.51352576,-46.696976,11.437286)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17288">B</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.664037;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#Stop)"
+       d="m -16.025395,42.899656 c 0,0 19.373033,0 19.373033,0"
+       id="path7564-4"
+       inkscape:path-effect="#path-effect7566-5"
+       inkscape:original-d="M -16.025395,42.899656 H 3.347638" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.664037;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#Stop-4)"
+       d="m 5.29867,59.147909 c 0,0 -24.056715,-12.200645 -24.056715,-12.200645"
+       id="path7564-4-3"
+       inkscape:path-effect="#path-effect7566-5-9"
+       inkscape:original-d="M 5.29867,59.147909 -18.758045,46.947264"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.664037;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#Stop-4-6)"
+       d="m 9.554789,46.76221 c 0,0 0.07229,10.647835 0.07229,10.647835"
+       id="path7564-4-3-0"
+       inkscape:path-effect="#path-effect7566-5-9-5"
+       inkscape:original-d="m 9.554789,46.76221 0.07229,10.647835"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.627933;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#TriangleStart-27-2)"
+       d="m 60.471499,118.47547 c 0,0 0,15.33801 0,15.33801"
+       id="path7564-3-9"
+       inkscape:path-effect="#path-effect7566-1-5"
+       inkscape:original-d="m 60.471499,118.47547 v 15.33801" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.628;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#TriangleStart-27-2-0)"
+       d="m 103.3981,59.42496 c 0,0 0,35.414799 0,35.414799"
+       id="path7564-3-9-3"
+       inkscape:path-effect="#path-effect7566-1-5-8"
+       inkscape:original-d="M 103.3981,59.42496 V 94.839759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-9"
+       transform="matrix(0.39385777,0,0,0.39385777,34.678239,86.839897)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17290">Holes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-0-9"
+       transform="matrix(0.39385777,0,0,0.39385777,17.88566,91.015258)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17292">NADH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-0-0-6"
+       transform="matrix(0.39385777,0,0,0.39385777,51.283037,91.015258)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17294">NAD</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.509295;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#TriangleStart-2)"
+       d="m 70.413769,114.53306 c 0,0 14.858495,0 14.858495,0"
+       id="path7564-0"
+       inkscape:path-effect="#path-effect7566-2"
+       inkscape:original-d="M 70.413769,114.53306 H 85.272264" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-7-2-3-1-0"
+       transform="matrix(0.38848498,0,0,0.38848498,-41.229435,56.275711)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17296">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-7-2-3-1-0-3"
+       transform="matrix(0.33112448,0,0,0.33112448,-35.412756,77.933727)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17298">GltA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-7-2-3-1-0-3-3"
+       transform="matrix(0.3509194,0,0,0.3509194,22.99098,55.012476)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17300">LacI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-7-2-3-1-0-3-3-7"
+       transform="matrix(0.3509194,0,0,0.3509194,51.547194,54.912886)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17302">Rex</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.421494;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path4056-90"
+       cx="-1.0188363"
+       cy="97.714218"
+       r="5.066339"
+       transform="scale(-1,1)" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.494101;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5337)"
+       d="m 61.629042,79.670378 9.592963,15.944975"
+       id="path5263"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.494101;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5337)"
+       d="M 89.795765,99.397734 77.336434,78.766363"
+       id="path5263-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.494101;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5337)"
+       d="M 83.646291,75.948601 67.886062,75.738244"
+       id="path5265" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-0-90"
+       transform="matrix(0.40433592,0,0,0.40433592,-59.762719,80.112028)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17304">NAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:337.899;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round"
+       x="109.0238"
+       y="64.731384"
+       id="text236-6-4-0-0-3"
+       transform="matrix(0.40433592,0,0,0.40433592,-25.476844,80.112028)"><tspan
+         x="109.0238"
+         y="64.731384"
+         id="tspan17306">NADH</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.527632;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#TriangleStart-0)"
+       d="m -7.3127375,104.25554 c 0,0 15.2537836,0 15.2537836,0"
+       id="path7564-3"
+       inkscape:path-effect="#path-effect7566-7"
+       inkscape:original-d="M -7.3127375,104.25554 H 7.9410461" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#e63434;stroke-width:0.49403;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 74.44964,78.023294 c 0,0 4.007568,-4.474911 4.007568,-4.474911"
+       id="path14025"
+       inkscape:path-effect="#path-effect14027"
+       inkscape:original-d="m 74.44964,78.023294 4.007568,-4.474911" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#e63434;stroke-width:0.49403;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 74.257737,73.670916 c 0,0 4.007568,4.47491 4.007568,4.47491"
+       id="path14025-4"
+       inkscape:path-effect="#path-effect14027-9"
+       inkscape:original-d="m 74.257737,73.670916 4.007568,4.47491" />
+  </g>
+</svg>

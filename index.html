@@ -1,0 +1,204 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="eraminicon/styles.css">
+    <link rel="stylesheet" href="dist/theme/solarized.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+	  <div>
+	    <h2>Computational evolution of genetic circuit topology</h2>
+	    <h3>For synthetic genetic circuit design</h3>
+	  </div>
+	  <div class="two_columns">
+	    <div style="text-align:center; margin-top:1em">
+	      <p>Lewis Grozinger<sup><small>1</small></sup></p>
+	      <p>Ángel Goñi-Moreno<sup><small>2</small></sup></p>
+	      <p style="margin-top:2em"><small><sup>1</sup>Biocomputation group, Centre for Biotechnology and Plant Genomics, UPM (INIA/CSIC), Madrid</small></p>
+	      <p style="margin-top:1em"><small><sup>2</sup>Biocomputation group, National Centre for Biotechnology, CSIC, Madrid, Spain</small></p>
+	    </div>
+	    <div>
+	      <img src="eraminicon/biocomplab.svg" style="width:100%; margin-top:1em;">
+	      <img src="eraminicon/logos.svg">
+	    </div>
+	  </div>
+	  <a href="https://lgrozinger.github.io/eraminicon2024/">https://lgrozinger.github.io/eraminicon2024/</a>
+	</section>
+
+	<section>
+	  <div class="two_columns">
+	    <div>
+	      <img src="fig1.svg" style="height:100%;">
+	    </div>
+	    <div>
+	      <h3 style="margin-bottom:1em">Genetic circuit design: Approach</h3>
+	      <p style="margin-top:1em">Goal: design a circuit to perform a logical function</p>
+	      <img src="fig2.svg" style="width:100%;">
+	      <p style="margin-top:1em">Mathematical transformations of logic formulae are the basis of logic circuit synthesis</p>
+	    </div>
+	</section>
+
+	<section>
+	  <div class="two_columns">
+	    <div>
+	      <img src="and_circuit.png" style="height:20%; margin-bottom:2em">
+	      <img src="and_circuit_genetic.png" style="height:40%; margin-top:2em">
+	    </div>
+	    <div>
+	      <h3>Genetic circuit design: Challenges</h3>
+	      <p style="margin-top:4em">Transformation from logic to circuit to genetic circuit to DNA can be done automatically</p>
+	      <p style="margin-top:2em">Challenges for transforming circuit to genetic circuit:</p>
+	      <ul style="margin-top:2em">
+		<li>Orthogonality -- no wires</li>
+		<li>Stochasticity -- noisy signals</li>
+	      </ul>
+	      <p style="margin-top:4em"><a href="https://doi.org/10.1126/science.aac7341">Alec A. K. Nielsen et al. , Genetic circuit design automation. Science352 , aac7341 (2016).</a></p>
+	    </div>
+	  </div>
+	</section>
+
+	<section>
+	  <div>
+	    <h3>Genetic circuit design: Libraries</h3>
+	    <img src="library.svg", style="width:100%">
+	    <p><a href="https://doi.org/10.1038/s41467-020-20656-5">Tas, H., Grozinger, L., Stoof, R. et al. Contextual dependencies expand the re-usability of genetic inverters. Nat Commun 12, 355 (2021).</a></p>
+	  </div>
+	</section>
+
+	<section>
+	  <div style="width:100%; display:table;">
+	    <div style="display:table-row;">
+	      <div style="width:70%; display:table-cell; vertical-align:middle">
+		<h3>Genetic circuit design: Gate Stochasticity</h3>
+	      </div>
+	      <div style="display:table-cell; vertical-align:middle">
+		<img src="NOT_ANSI_Labelled.svg", style="width:100%;">
+	      </div>
+	    </div>
+	  </div>
+	  <video data-autoplay style="align-self:center; margin-top:1em; width:100%" src="not.mp4"></video>
+	</section>
+
+	<section>
+	  <div style="width:100%; display:table;">
+	    <div style="display:table-row;">
+	      <div style="width:70%; display:table-cell; vertical-align:middle">
+		<h3>Genetic circuit design: Circuit Stochasticity</h3>
+	      </div>
+	      <div style="display:table-cell; vertical-align:middle">
+		<img src="fig2.svg", style="width:100%;">
+	      </div>
+	    </div>
+	  </div>
+	  <video data-autoplay style="align-self:center; margin-top:1em; width:100%" src="and.mp4"></video>
+	</section>
+
+	<section>
+	  <div class="two_columns">
+	    <div>
+	      <h3>Genetic programming circuit design</h3>
+	      <p style="margin-top:1em">Evolve a graph</p>
+	      <pre><code data-trim data-noescape>
+		  x0 = random_genome()
+		  for i = [1, G]
+		    x1 = mutate(x0)
+		    g0 = genome_to_circuit(x0)
+		    g1 = genome_to_circuit(x1)
+		    if objective(g1) >= objective(g0)
+		      x0 = x1
+		  return x0
+	      </code></pre>
+	      <p style="margin-top:1em">With library of NOT gates as nodes</p>
+	      <p style="margin-top:1em">and inhibition as edges</p>
+	      <img src="eggraph.svg", style="width:60%">
+	    </div>
+	    <div>
+	      <img src="eraminicon/evolved_antenna.jpg", style="height:80%">
+	      <p><a href="https://doi.org/10.2514/6.2006-7242">Hornby, Gregory, Al Globus, Derek Linden, and Jason Lohn. Automated antenna design with evolutionary algorithms. Space (2006).</a></p>
+	    </div>
+	  </div>
+	</section>
+
+	<section>
+	  <h3 style="margin-bottom:1em">Example: Evolved AND</h3>
+	  <img src="fig8.svg", style="width:100%">
+	</section>
+
+	<section>
+	  <div style="width:100%; display:table;">
+	    <div style="display:table-row;">
+	      <div style="width:30%; display:table-cell">
+		<img src="fig9.svg", style="width:100%">
+	      </div>
+	      <div style="display:table-cell">
+		<video data-autoplay style="align-self:center; margin-top:1em; width:100%" src="and_evolved.mp4"></video>
+	      </div>
+	    </div>
+	  </div>
+	  <p style="margin-top:1em"><a href="https://doi.org/10.1162/isal_a_00632">Lewis Grozinger, Ángel Goñi-Moreno. Computational evolution of gene circuit topologies to meet design requirements. Proceedings of the ALIFE 2023: Ghost in the Machine. (2023)</a></p>
+	</section>
+	    
+	<section>
+	  <div class="two_columns">
+	    <div>
+	      <h3 style="margin-bottom:1em">Current method</h3>
+	      <p>Mathematical representation</p>
+	      <p style="margin-top:1em">Fixes logic circuit design with available operations</p>
+	      <p style="margin-top:1em">Substitute genetic gates into circuit</p>
+	      <p style="margin-top:1em">Suffers from mismatched gates and noise</p>
+	      <video data-autoplay style="align-self:center; margin-top:1em; width:100%" src="and.mp4"></video>
+	    </div>
+	    <div>
+	      <h3 style="margin-bottom:1em">This method</h3>
+	      <p>Simulation and fitness function</p>
+	      <p style="margin-top:1em">Library of genetic "functions"</p>
+	      <p style="margin-top:1em">Evolves a graph representation of a suitable circuits</p>
+	      <p style="margin-top:1em">Accounts for mismatched gates and noise in design</p>
+	      <video data-autoplay style="align-self:center; margin-top:1em; width:100%" src="and_evolved.mp4"></video>
+	    </div>
+	  </div>
+	</section>
+
+	<section>
+	  <div class="two_columns">
+	    <div>
+	      <h3 style="margin-bottom:1em">Ongoing and Future work</h3>
+	      <p>In our lab we are building the evolved AND</p>
+	      <p style="margin-top:2em">Constraints on complexity (from molecular biology point of view)</p>
+	      <p style="margin-top:2em">Can we evolve to simplify complex circuits?</p>
+	      <p style="margin-top:2em">More functions!!! Less logic!!!</p>
+	    </div>
+	    <div>
+	      <img src="fig9.svg", style="width:100%">
+	    </div>
+	  </div>
+	</section>
+
+	<section>
+	  <div>
+	    <h2>Computational evolution of genetic circuit topology</h2>
+	    <h3>For synthetic genetic circuit design</h3>
+	  </div>
+	  <div class="two_columns">
+	    <div style="text-align:center; margin-top:1em">
+	
+	    </div>
+	    <div>
+	      <img src="eraminicon/biocomplab.svg" style="width:100%; margin-top:1em;">
+	      <img src="eraminicon/logos.svg">
+	    </div>
+	  </div>
+	  <a href="https://lgrozinger.github.io/eraminicon2024/">https://lgrozinger.github.io/eraminicon2024/</a>
+	</section>
+
+    <script src="dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+	  width: 1920,
+	  height: 1080,
+      });
+    </script>
+  </body>
+</html>
